@@ -5,6 +5,7 @@ const submitButton = document.getElementById('submit-button');
 
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
+const passwordInput = document.getElementById('password');
 const phoneInput = document.getElementById('phone-number');
 const locationList = document.getElementById('location');
 
