@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<! --   Theodore Weaver
+        06-07-2026
+        Lab 2: The Bean Barn 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - The Bean Barn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">☕ The Bean Barn</div>
+            <ul class="nav-links">
+                <li><a href="landing.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Create Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="account-header">
+           
+         
+        </section>
+
+        <section class="account-form">
+            <h2> Create Customer Account </h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+
+                
+            </form>
+
+            <h2>Location & Preferences</h2>
+
+            <label for ="location">Preferred Store Location:</label>
+            <input list = "locations" id="location" name="location" required>
+            <datalist id="locations">
+                <option value="Franklinville, NJ">
+                <option value="Maplewood, NJ">
+                <option value="Cherry Hill, NJ">
+                <option value="Collingswood, NJ">
+            </datalist>
+            
+            <label for = "Street Address">Street Address:</label>
+            <input type="text" id="street" name="street" required>
+
+            <label for = "City" >City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for = "State">State:</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for = "Zip Code">Zip Code:</label>
+            <input type="text" id="zip" name="zip" required>
+
+            <button id="submit-button" type="submit">Create Account</button>
+
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
